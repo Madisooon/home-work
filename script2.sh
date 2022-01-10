@@ -6,7 +6,7 @@
     # Не забываем давать права скрипту (chmod +x ./ИМЯ_ФАЙЛА)
     source config.sh
     sudo mkdir /var/www/$dirsite
-    sudo apt-get install zip
+    sudo apt -f -y install zip
     sudo wget -P /var/www/ https://wordpress.org/latest.zip
     sudo unzip /var/www/latest.zip -d/var/www/$dirsite
     sudo cp -r /var/www/$dirsite/wordpress/ /var/www/
