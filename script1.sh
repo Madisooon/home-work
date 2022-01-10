@@ -1,5 +1,5 @@
 #!/bin/bash
-# Установка WordPress Debian11
+# Установка WordPress Debian
 # Скрипт 1 подготовка среды для установки WordPress
 # Не забываем давать права скрипту (chmod +x ./ИМЯ_ФАЙЛА)
 sudo apt update

@@ -1,7 +1,6 @@
 #!/bin/bash
     # Создаем файл конфигурации для Apache2 и даем link в папку enabled
-    # Не забываем давать права скрипту (chmod +x ./ИМЯ_ФАЙЛА)
-	source config.sh
+    source config.sh
     touch /etc/apache2/sites-available/$nameconf
     echo '<VirtualHost *:80>' >> $path/$nameconf
     echo        'ServerName '$adressite'' >> $path/$nameconf

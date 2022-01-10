@@ -3,7 +3,6 @@
     # Скачивание в папку сайта WordPress
     # Указываем ip адреса для доменных имен в файле /etc/hosts
     # Создаем файл конфигурации для Apache2 и даем link в папку enabled
-    # Не забываем давать права скрипту (chmod +x ./ИМЯ_ФАЙЛА)
     source config.sh
     sudo mkdir /var/www/$dirsite
     sudo apt -f -y install zip

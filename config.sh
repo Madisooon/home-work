@@ -1,5 +1,4 @@
 #!/bin/bash
-
    # База данных
    rootpass="password123"
    dbname="dbnames"
